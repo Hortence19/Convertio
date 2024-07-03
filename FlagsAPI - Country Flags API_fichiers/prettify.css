@@ -1,0 +1,203 @@
+/* GitHub Theme */
+/* Pretty printing styles. Used with prettify.js. */
+/* SPAN elements with the classes below are added by prettyprint. */
+/* plain text */
+.pln {
+  color: #333333;
+}
+.prettyprint{overflow:auto!important;}
+
+@media screen {
+  /* string content */
+  .str {
+    color: #dd1144;
+  }
+
+  /* a keyword */
+  .kwd {
+    color: #333333;
+  }
+
+  /* a comment */
+  .com {
+    color: #999988;
+  }
+
+  /* a type name */
+  .typ {
+    color: #445588;
+  }
+
+  /* a literal value */
+  .lit {
+    color: #445588;
+  }
+
+  /* punctuation */
+  .pun {
+    color: #333333;
+  }
+
+  /* lisp open bracket */
+  .opn {
+    color: #333333;
+  }
+
+  /* lisp close bracket */
+  .clo {
+    color: #333333;
+  }
+
+  /* a markup tag name */
+  .tag {
+    color: navy;
+  }
+
+  /* a markup attribute name */
+  .atn {
+    color: teal;
+  }
+
+  /* a markup attribute value */
+  .atv {
+    color: #dd1144;
+  }
+
+  /* a declaration */
+  .dec {
+    color: #333333;
+  }
+
+  /* a variable name */
+  .var {
+    color: teal;
+  }
+
+  /* a function name */
+  .fun {
+    color: #990000;
+  }
+}
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+  .str {
+    color: #006600;
+  }
+
+  .kwd {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .com {
+    color: #600;
+    font-style: italic;
+  }
+
+  .typ {
+    color: #404;
+    font-weight: bold;
+  }
+
+  .lit {
+    color: #004444;
+  }
+
+  .pun, .opn, .clo {
+    color: #444400;
+  }
+
+  .tag {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .atn {
+    color: #440044;
+  }
+
+  .atv {
+    color: #006600;
+  }
+}
+/* Style */
+pre.prettyprint {
+  background: #F0F0F0;
+  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid #cccccc;
+  padding: 0;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #888;
+}
+
+.linenums li {
+  background: #FAFAFA;
+  padding-left: 10px;
+  border-left: 1px solid #CCC;
+}
+
+.linenums li {
+  padding-top: 5px;
+}
+
+.linenums li + li {
+  padding-top: 0;
+}
+
+.linenums li:last-child {
+  padding-bottom: 5px;
+}
+
+
+
+/* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
+  /* */
+}
+
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
+  /* */
+}
+
+/*
+     FILE ARCHIVED ON 23:20:39 Oct 10, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:06:40 Dec 03, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 123.538 (3)
+  esindex: 0.016
+  exclusion.robots.policy: 0.346
+  load_resource: 110.158
+  cdx.remote: 0.12
+  PetaboxLoader3.datanode: 124.675 (4)
+  exclusion.robots: 0.364
+  captures_list: 151.3
+  CDXLines.iter: 17.929 (3)
+  PetaboxLoader3.resolve: 29.162
+*/
