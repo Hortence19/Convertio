@@ -64,7 +64,7 @@ header{
     text-align: center;
 }
 form{
-    margin: 40px 0px 20px 0px;
+    margin: 20px ; 
 }
 form :where(input, select, button){
     width: 50%;
@@ -113,16 +113,18 @@ select{
     padding-top: 30px;
 }
 .result{
-    font-size: 20px;
-    margin: 20px 0px 30px;
+    font-size: 17pxpx;
+    margin: 20px;
 }
 form button{
     height: 52px;
     font-size: 20px;
+    border-radius: 5px;
 }
 form button:active{
     padding: 0 14px;
     border: 2px solid rgb(163, 137, 180);
+    
 }
 footer{
     display: flex;

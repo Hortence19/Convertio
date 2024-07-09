@@ -1,8 +1,8 @@
 let country_code = {
-    "USA":"US",
-    "USA":"US",
-    "USA":"US",
-    "USA":"US",
-    "USA":"US",
-    "USA":"US",
+    "USD": "US",
+    "EUR": "FR",
+    "XOF": "BJ",
+    "GHS": "GH",
+    "MAD": "MA",
+    "NGN": "NG",
 }
